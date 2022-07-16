@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",     // 打包模块类型
+    "declaration": false,   // 不生成.d.ts文件
+    "noImplicitAny": false, // 不允许隐式any类型
+    "removeComments": true, // 移除注释
+    "moduleResolution": "node", //  模块解析器node
+    "esModuleInterop": true,    // 是否允许esModule转换为CommonJS模块
+    "jsx": "preserve",  // jsx不转义
+    "noLib": false,     // 不处理类库
+    "target": "ES6",    // 目标语法
+    "sourceMap": true,  // 是否生成sourceMap
+    "lib": ["ESNext", "DOM"],   // 支持的类库
+    "allowSyntheticDefaultImports": true, // 允许没有从没有导入的模块默认导入一个类型
+    "experimentalDecorators": true, // 允许使用装饰器
+    "forceConsistentCasingInFileNames": true, // 文件名强制区分大小写
+    "resolveJsonModule": true,  // 解析json模块
+    "strict": true,    // 开启严格模式
+    "skipLibCheck": true, // 跳过类库检测
+  },
+  "exclude": [  // 排除文件
+    "node_modules",
+    "**/__tests__",
+    "dist/**"
+  ]
+}

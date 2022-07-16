@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shichiye/components": "workspace:*",
+    "@shichiye/theme-chalk": "workspace:*",
+    "@shichiye/utils": "workspace:*",
+    "typescript": "^4.7.4",
+    "vue": "^3.2.37"
+  }
+}
